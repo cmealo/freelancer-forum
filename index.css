@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  margin: 0;
+}
+
+#app {
+  text-align: center;
+}
+
+#AverageRate {
+  font-weight: bold;
+  color: blue;
+}
+
+table {
+  border-collapse: collapse; /* cleans borders */
+  margin-top: 1rem;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px 12px;
+}
+
+th {
+  background-color: #ddd;
+}
